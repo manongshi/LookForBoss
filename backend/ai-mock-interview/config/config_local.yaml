@@ -1,0 +1,35 @@
+app:
+  listenport: 8010
+  listenhost: 127.0.0.1
+  max_session: 1
+  ssl: false
+  web:
+    port: 3000
+    host: 127.0.0.1
+model:
+  type: wav2lip
+  avatar_id: hr-warm
+  batch_size: 4
+  model_path: ./models
+tts:
+  type: edgetts
+  ref_file: zh-CN-XiaoxiaoNeural
+asr:
+  mode: browser
+  type: whisper
+  model_size: tiny
+  device: cpu
+  language: zh
+llm:
+  api_key: ''
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  model: qwen-plus
+audio:
+  fps: 50
+  sample_rate: 16000
+video:
+  width: 450
+  height: 450
+  fps: 25
+custom_video:
+  config_path: ''

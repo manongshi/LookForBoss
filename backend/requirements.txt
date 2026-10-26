@@ -1,0 +1,5 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic-settings>=2.6,<3
+websockets>=15,<18
+tzdata>=2025.1

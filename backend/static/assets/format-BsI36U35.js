@@ -1,0 +1,1 @@
+function n(t){return t==null?"—":Number(t).toLocaleString("zh-CN")}function e(t,i=!1){return t?new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",...i?{month:"2-digit",day:"2-digit"}:{},hour:"2-digit",minute:"2-digit",...i?{}:{second:"2-digit"},hour12:!1}).format(new Date(t)):"—"}export{n,e as t};

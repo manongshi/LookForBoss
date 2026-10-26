@@ -1,0 +1,20 @@
+# Install into this module's .venv, separately from the FindBoss API environment.
+torch==2.7.1
+numpy>=1.26,<2
+opencv-python-headless>=4.8,<4.12
+aiohttp>=3.10,<4
+aiortc>=1.13,<2
+av>=14,<18
+edge-tts>=7,<8
+librosa>=0.10,<0.12
+resampy>=0.4,<1
+scipy>=1.11
+soundfile>=0.12,<1
+sherpa-onnx>=1.12,<2
+PyYAML>=6,<7
+requests>=2.32,<3
+tqdm>=4.66,<5
+websockets==12.0
+azure-cognitiveservices-speech>=1.40,<2
+openai>=1,<4
+logger==1.4

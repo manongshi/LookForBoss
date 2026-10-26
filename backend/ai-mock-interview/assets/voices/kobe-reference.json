@@ -1,0 +1,14 @@
+{
+  "source": "https://www.youtube.com/watch?v=MlvEiLSTagg",
+  "mirror": "https://www.bilibili.com/video/BV1q3rjB5EWR/",
+  "reference_start_seconds": 480,
+  "reference_end_seconds": 502.6,
+  "reference_file": "kobe-reference.wav",
+  "prompt_start_seconds": 495,
+  "prompt_end_seconds": 501.7,
+  "prompt_file": "kobe-prompt.wav",
+  "prompt_text": "So therefore, the passion and the work ethic, the obsessiveness was gone. And then you had the players.",
+  "sample_rate": 24000,
+  "channels": 1,
+  "provider": "minimax"
+}

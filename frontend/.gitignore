@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+credentials*.json
+secrets.*
+*.local
+*.log
+.DS_Store

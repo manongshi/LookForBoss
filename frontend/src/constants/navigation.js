@@ -1,0 +1,68 @@
+import { Database, History, LayoutDashboard, MessageSquare, Settings2, UserRound, ChartNoAxesCombined, MessagesSquare } from 'lucide-vue-next'
+
+export const navigation = [
+  {
+    id: 'workbench',
+    path: '/workbench',
+    label: '采集职位',
+    title: '采集职位',
+    description: '',
+    icon: LayoutDashboard,
+  },
+  {
+    id: 'jobs',
+    path: '/jobs',
+    label: '我的职位',
+    title: '我的职位',
+    description: '',
+    icon: Database,
+  },
+  {
+    id: 'messages',
+    path: '/messages',
+    label: '消息记录',
+    title: '消息记录',
+    description: '',
+    icon: MessageSquare,
+  },
+  {
+    id: 'interview',
+    path: '/interview',
+    label: '模拟面试',
+    title: '模拟面试',
+    description: '用真实岗位要求练习，与数字人面试官逐题对答。',
+    icon: MessagesSquare,
+  },
+  {
+    id: 'distribution',
+    path: '/distribution',
+    label: '职位分布',
+    title: '职位分布',
+    description: '比较薪资、地区与经验要求。',
+    icon: ChartNoAxesCombined,
+  },
+  {
+    id: 'assistant',
+    path: '/assistant',
+    label: '求职助手',
+    title: '求职助手',
+    description: '管理求职资料、匹配偏好和投递黑名单。',
+    icon: UserRound,
+  },
+  {
+    id: 'records',
+    path: '/records',
+    label: '任务记录',
+    title: '任务记录',
+    description: '查看各平台采集、简历投递与沟通任务的执行结果。',
+    icon: History,
+  },
+  {
+    id: 'settings',
+    path: '/settings',
+    label: '连接设置',
+    title: '连接设置',
+    description: '管理数据库与采集浏览器的连接状态。',
+    icon: Settings2,
+  },
+]

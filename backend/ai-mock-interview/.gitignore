@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+/.voice-venv/
+venv/
+ENV/
+env/
+.env
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+models/
+data/
+logs/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Recordings
+data/records/
+
+# Certificates
+certs/
+*.pem
+*.key
+*.crt
+
+# Temporary files
+*.tmp
+*.log
+.cache/
+
+
+src/omni/
+
+results/
+
+# Local interview environment and private settings
+.tools/
+web/node_modules/
+.local/
+.impeccable/review/
+.release/
+.env.*
+!src/avatars/wav2lip/models/
+!src/avatars/wav2lip/models/*.py
+
+# Generated from the companion frontend repository
+/web/
